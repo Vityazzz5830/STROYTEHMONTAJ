@@ -200,9 +200,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Добавляем класс active к текущему табу и показываем соответствующее содержимое
             tabElement.classList.add('active');
             const currentTabId = tabElement.getAttribute('data-stab');
-            if (document.querySelector('.projects_secondpage_content-1')) {
+            
               document.getElementById(`projects_secondpage_content-${currentTabId}`).classList.add('active');
-            }
+            
             
         });
     });
@@ -570,4 +570,5 @@ titleItems.forEach((titleItem, index) => {
           });
         }
       });
+
 });
