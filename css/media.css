@@ -1816,6 +1816,8 @@ footer {
 
   .secondpage_container_main_header_rightpart {
     z-index: 10;
+    width: fit-content;
+    align-self: flex-end;
   }
 
 .secondpage_container_main_header_leftpart {
@@ -2586,3 +2588,4 @@ footer {
 
 
 }
+
