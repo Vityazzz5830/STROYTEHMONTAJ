@@ -545,8 +545,8 @@ header > .main__container {
   overflow: hidden !important;
 }
 
-section {
-  overflow-x: hidden !important;
+.main__container {
+  width: calc(100vw - 40px);
 }
 
 .header_content-wrap > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
@@ -1865,5 +1865,6 @@ footer {
 
 
 }
+
 
 
