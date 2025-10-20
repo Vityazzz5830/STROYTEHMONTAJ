@@ -16,7 +16,7 @@
       display: grid;
       grid-template-rows: auto 1fr auto;
       position: relative;
-      overflow-x: hidden;
+      overflow-x: hidden !important;
     }
 
     ul,li {
@@ -6947,4 +6947,5 @@ footer{
 
 .noscroll{
   overflow: hidden !important;
+
 }
